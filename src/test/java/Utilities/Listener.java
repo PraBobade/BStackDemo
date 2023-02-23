@@ -74,7 +74,6 @@ public class Listener extends TestListenerAdapter {   // THIS IS LISTENER CLASS
         if(f.exists())
         {
             try {
-
                 logger.fail("Screenshot is below:" + logger.addScreenCaptureFromPath(screenshotPath));
             } catch (IOException e) {
                 e.printStackTrace();

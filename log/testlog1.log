@@ -5,3 +5,7 @@ Validate by a product with all information sending correctly.
 2023-02-23 16:12:36,832 [main] INFO FlipKart.com - Validate Check out without Any shipping Address.
 2023-02-23 16:28:18,269 [main] INFO FlipKart.com - //Validate Checkout only sending First name in Shipping Address.
 
+2023-02-23 17:34:16,514 [main] INFO FlipKart.com - validate all products Add Favourite.
+2023-02-23 17:37:50,823 [main] INFO FlipKart.com - validate all products Add Favourite.
+2023-02-23 17:38:54,887 [main] INFO FlipKart.com - validate all products Add Favourite.
+2023-02-23 17:40:25,685 [main] INFO FlipKart.com - validate all products Add Favourite.
