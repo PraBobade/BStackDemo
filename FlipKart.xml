@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="Utilities.Listener"/>
+    </listeners>
+    <test name="Login"   >
+        <classes>
+            <class name="TestCases.Login.TC_LF_001"/>
+            <class name="TestCases.Login.TC_LF_002"/>
+            <class name="TestCases.Login.TC_LF_003"/>
+            <class name="TestCases.Login.TC_LF_004"/>
+            <class name="TestCases.Login.TC_LF_005"/>
+            <class name="TestCases.Login.TC_LF_006"/>
+            <class name="TestCases.Login.TC_LF_007"/>
+            <class name="TestCases.Login.TC_LF_008"/>
+            <class name="TestCases.Login.TC_LF_009"/>
+            <class name="TestCases.Login.TC_LF_010"/>
+            <class name="TestCases.Login.TC_LF_011"/>
+            <class name="TestCases.Login.TC_LF_012"/>
+        </classes>
+    </test>
+<!--    <test name="Logout"   >-->
+<!--        <classes>-->
+<!--            <class name="TestCases.Logout.TC_LG_001"/>-->
+<!--            <class name="TestCases.Logout.TC_LG_002"/>-->
+<!--            <class name="TestCases.Logout.TC_LG_003"/>-->
+<!--            <class name="TestCases.Logout.TC_LG_004"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="Add_To_Cart"   >-->
+<!--        <classes>-->
+<!--            <class name="TestCases.Add_To_Cart.TC_AC_001"/>-->
+<!--            <class name="TestCases.Add_To_Cart.TC_AC_002"/>-->
+<!--            <class name="TestCases.Add_To_Cart.TC_AC_003"/>-->
+<!--            <class name="TestCases.Add_To_Cart.TC_AC_004"/>-->
+<!--            <class name="TestCases.Add_To_Cart.TC_AC_005"/>-->
+<!--            <class name="TestCases.Add_To_Cart.TC_AC_006"/>-->
+<!--            <class name="TestCases.Add_To_Cart.TC_AC_007"/>-->
+<!--            <class name="TestCases.Add_To_Cart.TC_AC_008"/>-->
+<!--            <class name="TestCases.Add_To_Cart.TC_AC_009"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="Buy Product"   >-->
+<!--        <classes>-->
+<!--            <class name="TestCases.BuyProduct.TC_BP_001"/>-->
+<!--            <class name="TestCases.BuyProduct.TC_BP_002"/>-->
+<!--            <class name="TestCases.BuyProduct.TC_BP_003"/>-->
+<!--            <class name="TestCases.BuyProduct.TC_BP_004"/>-->
+<!--            <class name="TestCases.BuyProduct.TC_BP_005"/>-->
+<!--            <class name="TestCases.BuyProduct.TC_BP_006"/>-->
+<!--            <class name="TestCases.BuyProduct.TC_BP_007"/>-->
+<!--            <class name="TestCases.BuyProduct.TC_BP_008"/>-->
+<!--            <class name="TestCases.BuyProduct.TC_BP_009"/>-->
+<!--            <class name="TestCases.BuyProduct.TC_BP_010"/>-->
+<!--            <class name="TestCases.BuyProduct.TC_BP_011"/>-->
+<!--            <class name="TestCases.BuyProduct.TC_BP_012"/>-->
+<!--            <class name="TestCases.BuyProduct.TC_BP_013"/>-->
+<!--            <class name="TestCases.BuyProduct.TC_BP_014"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="Offers"   >-->
+<!--        <classes>-->
+<!--            <class name="TestCases.Offers.TC_OF_001"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="Vendors"   >-->
+<!--        <classes>-->
+<!--            <class name="TestCases.Vendors.TC_VN_001"/>-->
+<!--            <class name="TestCases.Vendors.TC_VN_002"/>-->
+<!--            <class name="TestCases.Vendors.TC_VN_003"/>-->
+<!--            <class name="TestCases.Vendors.TC_VN_004"/>-->
+<!--            <class name="TestCases.Vendors.TC_VN_005"/>-->
+<!--            <class name="TestCases.Vendors.TC_VN_006"/>-->
+<!--            <class name="TestCases.Vendors.TC_VN_007"/>-->
+<!--            <class name="TestCases.Vendors.TC_VN_008"/>-->
+<!--            <class name="TestCases.Vendors.TC_VN_009"/>-->
+<!--            <class name="TestCases.Vendors.TC_VN_010"/>-->
+<!--            <class name="TestCases.Vendors.TC_VN_011"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="OrderBy"   >-->
+<!--        <classes>-->
+<!--            <class name="TestCases.Orders_By.TC_OB_001"/>-->
+<!--            <class name="TestCases.Orders_By.TC_OB_002"/>-->
+<!--            <class name="TestCases.Orders_By.TC_OB_003"/>-->
+<!--            <class name="TestCases.Orders_By.TC_OB_004"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="Favourites"   >-->
+<!--        <classes>-->
+<!--            <class name="TestCases.Favourites.TC_FU_001"/>-->
+<!--            <class name="TestCases.Favourites.TC_FU_002"/>-->
+<!--            <class name="TestCases.Favourites.TC_FU_003"/>-->
+<!--            <class name="TestCases.Favourites.TC_FU_004"/>-->
+<!--            <class name="TestCases.Favourites.TC_FU_005"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+
+</suite>

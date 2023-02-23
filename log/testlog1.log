@@ -1,0 +1,7 @@
+2023-02-23 15:39:27,966 [main] INFO FlipKart.com - 
+Validate by a product with all information sending correctly.
+2023-02-23 15:45:58,584 [main] INFO FlipKart.com - Validate Continue Shopping option After Order Placed
+2023-02-23 16:07:08,203 [main] INFO FlipKart.com - Validate Check out without Any shipping Address.
+2023-02-23 16:12:36,832 [main] INFO FlipKart.com - Validate Check out without Any shipping Address.
+2023-02-23 16:28:18,269 [main] INFO FlipKart.com - //Validate Checkout only sending First name in Shipping Address.
+
