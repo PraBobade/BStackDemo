@@ -22,7 +22,7 @@ public class OB_BP_001 extends BaseClass {
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.cssSelector(".buy-btn"))));
         driver.findElement(By.cssSelector(".buy-btn")).click();
     }
-    public void AddShippingAddressCorrect(){
+    public void AddShippingAddressCorrect()  {
         driver.findElement(By.id("firstNameInput")).sendKeys("FakeFirstName");
         driver.findElement(By.id("lastNameInput")).sendKeys("FakeLastName");
         driver.findElement(By.id("addressLine1Input")).sendKeys("Address");

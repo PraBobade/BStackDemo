@@ -55,7 +55,8 @@ public class BaseClass {
         }
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
-        driver.get(read.getUrl());
+       // driver.get(read.getUrl());
+        driver.navigate().to(read.getUrl());
         act = new Actions(driver);
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
