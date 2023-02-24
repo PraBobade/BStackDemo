@@ -22,7 +22,7 @@
     </test>
     <test name="Logout"   >
         <classes>
-            <class name="TestCases.Logout.TC_LG_001"/>
+            <class name="TestCases.Logout.TC_LO_001"/>
             <class name="TestCases.Logout.TC_LG_002"/>
             <class name="TestCases.Logout.TC_LG_003"/>
             <class name="TestCases.Logout.TC_LG_004"/>
