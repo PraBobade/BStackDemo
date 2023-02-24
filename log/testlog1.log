@@ -9,3 +9,37 @@ Validate by a product with all information sending correctly.
 2023-02-23 17:37:50,823 [main] INFO FlipKart.com - validate all products Add Favourite.
 2023-02-23 17:38:54,887 [main] INFO FlipKart.com - validate all products Add Favourite.
 2023-02-23 17:40:25,685 [main] INFO FlipKart.com - validate all products Add Favourite.
+2023-02-24 11:07:42,875 [main] INFO FlipKart.com - //Validate checkout without sending State and Postal code in shipping Address.
+2023-02-24 11:16:34,608 [main] INFO FlipKart.com - Validate Sending all Correct information in shipping address but send PostalCode as String.
+2023-02-24 11:19:19,183 [main] INFO FlipKart.com - Validate Sending all Correct information in shipping address but send PostalCode as String.
+2023-02-24 11:25:43,470 [main] INFO FlipKart.com - Validate successfully order placed message.
+2023-02-24 11:46:23,966 [main] INFO FlipKart.com - Validate Download Order receipt option
+2023-02-24 11:47:58,083 [main] INFO FlipKart.com - Validate Download Order receipt option
+2023-02-24 12:21:55,857 [main] INFO FlipKart.com - Validate Download Order receipt option
+2023-02-24 12:25:59,025 [main] INFO FlipKart.com - Validate Download Order receipt option
+2023-02-24 12:38:18,915 [main] INFO FlipKart.com - Validate Order number.
+2023-02-24 12:38:58,443 [main] INFO FlipKart.com - Validate Order number.
+2023-02-24 12:49:30,418 [main] INFO FlipKart.com - Validate the Order is present in Orders Section or not.
+2023-02-24 13:46:06,433 [main] INFO FlipKart.com - Validate the Order placed Date.
+2023-02-24 13:47:31,067 [main] INFO FlipKart.com - Validate the Order placed Date.
+2023-02-24 13:48:52,703 [main] INFO FlipKart.com - Validate the Order placed Date.
+2023-02-24 13:50:02,510 [main] INFO FlipKart.com - Validate the Order placed Date.
+2023-02-24 13:59:19,710 [main] INFO FlipKart.com - Validate after buy product there is no product in Bag
+2023-02-24 14:00:25,452 [main] INFO FlipKart.com - Validate after buy product there is no product in Bag
+2023-02-24 14:02:49,009 [main] INFO FlipKart.com - Validate after buy product there is no product in Bag
+2023-02-24 14:06:28,232 [main] INFO FlipKart.com - Validate after buy product there is no product in Bag
+2023-02-24 14:08:06,342 [main] INFO FlipKart.com - Validate after buy product there is no product in Bag
+2023-02-24 14:09:53,774 [main] INFO FlipKart.com - Validate after buy product there is no product in Bag
+2023-02-24 14:13:45,759 [main] INFO FlipKart.com - Validate after buy product there is no product in Bag
+2023-02-24 14:14:25,661 [main] INFO FlipKart.com - Validate after buy product there is no product in Bag
+2023-02-24 14:15:58,312 [main] INFO FlipKart.com - Validate after buy product there is no product in Bag
+2023-02-24 14:18:24,618 [main] INFO FlipKart.com - Validate after buy product there is no product in Bag
+2023-02-24 14:19:57,527 [main] INFO FlipKart.com - Validate after buy product there is no product in Bag
+2023-02-24 14:20:18,201 [main] INFO FlipKart.com - Validate after buy product there is no product in Bag
+2023-02-24 14:20:55,651 [main] INFO FlipKart.com - Validate after buy product there is no product in Bag
+2023-02-24 14:21:23,165 [main] INFO FlipKart.com - Validate after buy product there is no product in Bag
+2023-02-24 14:22:10,728 [main] INFO FlipKart.com - Validate after buy product there is no product in Bag
+2023-02-24 14:23:16,944 [main] INFO FlipKart.com - Validate after buy product there is no product in Bag
+2023-02-24 14:24:48,785 [main] INFO FlipKart.com - Validate after buy product there is no product in Bag
+2023-02-24 14:26:14,757 [main] INFO FlipKart.com - Validate after buy product there is no product in Bag
+2023-02-24 14:28:21,386 [main] INFO FlipKart.com - Validate after buy product there is no product in Bag

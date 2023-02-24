@@ -13,7 +13,7 @@ public class TC_BP_005 extends OB_BP_005 {
         OB.LoginToApplication();
         OB.AddProductToCart();
         OB.ClickOnCheckOutOption();
-        OB.AddShippingAddressOnlyName();
+        OB.AddShippingAddressOnlyName("Rahul");
         OB.ClickOnSubmit();
         OB.ValidateMsg("true");
 

@@ -25,8 +25,8 @@ public void LoginToApplication(){
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.cssSelector(".buy-btn"))));
         driver.findElement(By.cssSelector(".buy-btn")).click();
     }
-    public void AddShippingAddressOnlyName(){
-        driver.findElement(By.id("firstNameInput")).sendKeys("FakeFirstName");
+    public void AddShippingAddressOnlyName(String FirstName){
+        driver.findElement(By.id("firstNameInput")).sendKeys(FirstName);
     }
     public void ClickOnSubmit(){
         driver.findElement(By.id("checkout-shipping-continue")).click();

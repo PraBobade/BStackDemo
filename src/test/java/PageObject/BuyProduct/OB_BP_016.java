@@ -3,12 +3,11 @@ package PageObject.BuyProduct;
 import TestCases.BaseClass;
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-import java.util.Objects;
-
-public class OB_BP_013 extends BaseClass {
-//Validate the Order is present in Orders Section or not.
+public class OB_BP_016 extends BaseClass {
+    //Validate after buy product there is no product in Bag
     public void LoginToApplication(){
         driver.findElement(By.xpath("(//a[normalize-space()='Sign In'])[1]")).click();
         driver.findElement(By.xpath("//div[@id='username']//div[contains(@class,'css-1hwfws3')]")).click();
@@ -34,26 +33,15 @@ public class OB_BP_013 extends BaseClass {
     public void ClickOnSubmit(){
         driver.findElement(By.id("checkout-shipping-continue")).click();
     }
-    public void ValidateOrderPlacedMessage(String ExpectedText) throws InterruptedException {
-        Thread.sleep(2000);
-        String msg = driver.findElement(By.cssSelector("#confirmation-message")).getText();
-
-        if (Objects.equals(msg, ExpectedText)){
-            Assert.assertTrue(true);
-        }
-        else{
-            Assert.fail();
-        }
-    }
     public void ClickOnContinueShoppingOption(){
         driver.findElement(By.cssSelector(".button.button--tertiary.optimizedCheckout-buttonSecondary")).click();
     }
-    public void NavigateToOrdersSection(){
-        driver.findElement(By.id("orders")).click();
+    public void NavigateToBagSection(){
+        driver.findElement(By.cssSelector("span[class='bag bag--float-cart-closed'] span[class='bag__quantity']")).click();
     }
-    public void CheckProductIsAvailableOrNotInOrderSection(){
-        boolean Result = driver.findElement(By.xpath("//div[@class='a-box-group a-spacing-base order']")).isDisplayed();
-        Assert.assertTrue("The Order is not in Order Section", Result);
+    public void ValidateProductIsAvailableOrNot(){
+        String result = driver.findElement(By.cssSelector(".buy-btn")).getText();
+        Assert.assertEquals("CONTINUE SHOPPING", result);
     }
 
 }
