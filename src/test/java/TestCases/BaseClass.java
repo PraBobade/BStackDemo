@@ -33,7 +33,7 @@ public class BaseClass {
 
    @BeforeClass
     public void setup() {
-        Log = Logger.getLogger("FlipKart.com");  //Logger.getLogger("eBanking");
+        Log = Logger.getLogger("BStackDemo.com");  //Logger.getLogger("eBanking");
         PropertyConfigurator.configure("Log4j.properties");
 
         if (read.GetBrowser().contains("hrome")) {
