@@ -10,4 +10,5 @@ public class TC_HC_001 extends OB_HC_001 {
         OB_HC_001 OB = new TC_HC_001();
         OB.ValidateLogoIsPresentOrNot();
     }
+
 }
