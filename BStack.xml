@@ -23,9 +23,16 @@
     <test name="Logout"   >
         <classes>
             <class name="TestCases.Logout.TC_LO_001"/>
-            <class name="TestCases.Logout.TC_LG_002"/>
-            <class name="TestCases.Logout.TC_LG_003"/>
-            <class name="TestCases.Logout.TC_LG_004"/>
+            <class name="TestCases.Logout.TC_LO_002"/>
+        </classes>
+    </test>
+    <test name="OrderBy"   >
+        <classes>
+            <class name="TestCases.HomeScreen.TC_HC_001"/>
+            <class name="TestCases.HomeScreen.TC_HC_002"/>
+            <class name="TestCases.HomeScreen.TC_HC_003"/>
+            <class name="TestCases.HomeScreen.TC_HC_004"/>
+            <class name="TestCases.HomeScreen.TC_HC_005"/>
         </classes>
     </test>
     <test name="Add_To_Cart"   >
@@ -39,6 +46,8 @@
             <class name="TestCases.Add_To_Cart.TC_AC_007"/>
             <class name="TestCases.Add_To_Cart.TC_AC_008"/>
             <class name="TestCases.Add_To_Cart.TC_AC_009"/>
+            <class name="TestCases.Add_To_Cart.TC_AC_010"/>
+            <class name="TestCases.Add_To_Cart.TC_AC_011"/>
         </classes>
     </test>
     <test name="Buy Product"   >
@@ -57,11 +66,15 @@
             <class name="TestCases.BuyProduct.TC_BP_012"/>
             <class name="TestCases.BuyProduct.TC_BP_013"/>
             <class name="TestCases.BuyProduct.TC_BP_014"/>
+            <class name="TestCases.BuyProduct.TC_BP_015"/>
+            <class name="TestCases.BuyProduct.TC_BP_016"/>
         </classes>
     </test>
     <test name="Offers"   >
         <classes>
             <class name="TestCases.Offers.TC_OF_001"/>
+            <class name="TestCases.Offers.TC_OF_002"/>
+            <class name="TestCases.Offers.TC_OF_003"/>
         </classes>
     </test>
     <test name="Vendors"   >
